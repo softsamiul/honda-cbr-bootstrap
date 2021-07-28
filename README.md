@@ -1,5 +1,4 @@
-# honda-cbr-bootstrap-assignment-softsamiul
-# Private repo link: https://classroom.github.com/a/z4g5T2Z8
+# Assignment - 3
 -----------------------
 Project Requirements:
 -----------------------
