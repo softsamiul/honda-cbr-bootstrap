@@ -1,0 +1,14 @@
+Private repo link: https://classroom.github.com/a/z4g5T2Z8
+
+1. Menu optional
+2. Hero senction img bg optional
+3. Hero section width 100%
+4. Main content will be like container
+5. Spaceing should be alsomost same
+6. After click Purcase  Modal will open and €€Modal content will be like my choice
+7. In Features bike section from one original image we have to add two grayscale by using raw css (Can take help from google)
+8. Latest news ioptional
+9. Happy clients section mandotory
+10. Icon can be fontawesome or svg icon
+11. FAQ section (accordion from bootstrap) section mandotory
+12. Footer optional
