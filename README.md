@@ -1,7 +1,8 @@
 # honda-cbr-bootstrap-assignment-softsamiul
-
-Private repo link: https://classroom.github.com/a/z4g5T2Z8
-
+# Private repo link: https://classroom.github.com/a/z4g5T2Z8
+-----------------------
+Project Requirements:
+-----------------------
 1. Menu optional
 2. Hero section's img bg optional
 3. Hero section width 100%
