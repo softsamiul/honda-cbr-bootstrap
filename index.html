@@ -21,30 +21,36 @@
     <header class="top-header">
         <div class="container">
             <!-- Navbar  -->
-            <nav id="navbar-example2" class="navbar navbar-light px-3">
-                <a class="navbar-brand" href="index.html">
-                    <img class="rounded-circle logo" src="assets/images/logo.png" alt="logo">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="assets/images/logo.png" alt="">
                 </a>
-                <ul class="nav nav-pills text-white">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#scrollspyHeading2">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#latest-news">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#about-us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact-us">Contact Us</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="nav nav-pills text-white ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#scrollspyHeading2">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#latest-news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -53,7 +59,7 @@
         <div class="container">
             <!-- Header feature start  -->
             <div class="row header-feature-wrapper text-white d-flex justify-content-between align-items-center">
-                <div class="col-md-5 header-left">
+                <div class="col-sm-12 col-md-5 header-left">
                     <p class="">Computer-controlled digital transistorized with electronic advance</p>
                     <h1 class="fw-bolder">Honda CBR 300R</h1>
                     <p class="">Honda CBR300R would be launching in India around 11 Aug 2021 with the
@@ -105,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 header-right">
+                <div class="col-sm-12 col-md-4 header-right">
                     <img class="img-fluid" src="assets/images/header-bike.png" alt="Header feature bike image">
                 </div>
                 <div class="col-md-1"></div>
@@ -114,25 +120,23 @@
     </section>
     <!-- Main section  -->
     <main>
-        <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
-            tabindex="0"> -->
         <!-- Featured bikes  -->
         <section id="featured-bikes" class="container">
             <div class="row pt-5">
-                <div class="col-md-12 text-center">
+                <div class="col text-center">
                     <h1 class="fw-bolder m-0">Fetured Bikes 2021</h1>
                     <p class="text-primary">Best bike collection</p>
                 </div>
             </div>
-            <div class="row gx-5">
-                <div class="col-sm-12 col-md-4 p-5">
+            <div class="row gx-3">
+                <div class="col-sm-12 col-md-4">
                     <img class="img-fluid bike-gray-scale" src="assets/images/feature-bike.jpg"
                         alt="Feature bikes image">
                 </div>
-                <div class="col-sm-12 col-md-4 p-5">
+                <div class="col-sm-12 col-md-4">
                     <img class="img-fluid" src="assets/images/feature-bike.jpg" alt="Feature bikes image">
                 </div>
-                <div class="col-sm-12 col-md-4 p-5">
+                <div class="col-sm-12 col-md-4">
                     <img class="img-fluid bike-gray-scale" src="assets/images/feature-bike.jpg"
                         alt="Feature bikes image">
                 </div>
@@ -235,7 +239,7 @@
                             <h6>Full Stack Engineer</h6>
                         </div>
                     </div>
-                    <div class="col-sm-12  col-lg-4  text-center">
+                    <div class="col-sm-12  col-md-4  text-center">
                         <div class="p-3 border rounded ">
                             <img class="img-fluid mb-4 rounded-circle user-rev-img" src="assets/images/user-3.jpg"
                                 alt="">
@@ -436,7 +440,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 offset-md-3 shadow-lg p-5">
+                    <div class="col-sm-12 col-md-8 offset-md-2 shadow-lg p-5">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="email" class="form-control" id="name" placeholder="Jhon Doe">
@@ -547,7 +551,7 @@
                                 <a class="nav-link text-white" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#scrollspyHeading2">Shop</a>
+                                <a class="nav-link text-white" href="#pricing">Shop</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#latest-news">News</a>
@@ -594,9 +598,15 @@
         </div>
     </footer>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
 
