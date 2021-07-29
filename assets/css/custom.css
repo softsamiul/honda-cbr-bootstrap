@@ -19,6 +19,9 @@ body {
 .bike-gray-scale {
     filter: grayscale(100%);
 }
+.card-img-height {
+    height: 250px;
+}
 #about-us {
     background-color: #f36524;
 }
