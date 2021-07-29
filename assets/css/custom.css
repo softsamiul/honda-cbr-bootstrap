@@ -25,6 +25,7 @@ body {
 #about-us {
     background-color: #f36524;
 }
+
 #subscribe {
     background: #FF0099;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
